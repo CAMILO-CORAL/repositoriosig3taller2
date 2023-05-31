@@ -657,7 +657,7 @@
                 return this._div;
             };
             title.update = function () {
-                this._div.innerHTML = '<h2>GEOVISOR COMUNA 18</h2>';
+                this._div.innerHTML = '<h2>GEOVISOR COMUNA 18 - TALLER 2 DE SIG 3</h2>';
             };
             title.addTo(map);
             var abstract = new L.Control({'position':'topright'});
@@ -672,7 +672,7 @@
                 abstract.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = 'Geovisor de la comuna 18 de Santiago de Cali, Valle del Cauca. Mediante este, es posible consultar información base y equipamientos de la comuna.';
+                    this._div.innerHTML = 'Este Geovisor posee información de la comuna 18 de Santiago de Cali, Valle del Cauca; es posible consultar información base y de equipamientos de la comuna.';
             };
             abstract.addTo(map);
         var osmGeocoder = new L.Control.Geocoder({
